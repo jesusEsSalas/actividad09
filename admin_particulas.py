@@ -13,14 +13,3 @@ class Administradora():
     def mostrar(self):
         for particula in self.__particulas:
             print(particula)
-
-p01 = Particula(1, 5, 6, 7, 8, 10, 255, 23, 0)
-p02 = Particula(2, 200, 300, 400, 150, 79, 55, 232, 101)
-p03 = Particula()
-admin_particula = Administradora()
-
-admin_particula.agregar_final(p01)
-admin_particula.agregar_inicio(p02)
-admin_particula.agregar_inicio(p03)
-
-admin_particula.mostrar()
